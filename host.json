@@ -1,0 +1,14 @@
+// Reference - https://learn.microsoft.com/en-us/azure/azure-functions/configure-monitoring?tabs=v2
+{
+  "version": "2.0",
+  "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Information",
+      "Host": "Error",
+      "Host.Results": "Information",
+      "Function": "Information",
+      "Host.Aggregator": "Information"
+    }
+  }
+}
